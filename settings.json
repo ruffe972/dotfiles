@@ -1,7 +1,6 @@
 {
     "telemetry.enableTelemetry": false,
     "workbench.colorTheme": "Visual Studio Light",
-    "workbench.statusBar.feedback.visible": false,
     "git.enabled": false,
     "python.pythonPath": "/usr/bin/python3",
     "editor.minimap.enabled": false,
@@ -9,7 +8,6 @@
     "files.autoSave": "afterDelay",
     "editor.hover.enabled": false,
     "editor.wordWrap": "on",
-    "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
     "update.mode": "none",
     "latex-workshop.latex.autoBuild.run": "never",
