@@ -2,11 +2,14 @@ if not status --is-interactive
     exit 0
 end
 
-#alias chmr='
-#    find . -type f -print0 | xargs -0 chmod 0644;
-#    find . -type d -print0 | xargs -0 chmod 0755'
+alias chmrf='find . -type f -print0 | xargs -0 chmod 0644'
+alias chmrd='find . -type d -print0 | xargs -0 chmod 0755'
+alias chmr='chrf;chmrd'
+
 alias gst='git status'
 alias gsh='git stash'
+alias gbr='git branch'
+alias gch='git checkout'
 
 set local_fish_config ~/.config/fish/local_config.fish
 if test -f $local_fish_config
