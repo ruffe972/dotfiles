@@ -1,32 +1,13 @@
 {
-    "telemetry.enableTelemetry": false,
-    "workbench.colorTheme": "Visual Studio Light",
-    "git.enabled": false,
-    "python.pythonPath": "/usr/bin/python3",
-    "editor.minimap.enabled": false,
-    "window.titleBarStyle": "custom",
-    "files.autoSave": "afterDelay",
     "editor.hover.enabled": false,
     "editor.wordWrap": "on",
-    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "git.enabled": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "telemetry.enableTelemetry": false,
     "update.mode": "none",
-    "latex-workshop.latex.autoBuild.run": "never",
-    "latex-workshop.view.pdf.viewer": "external",
-    "latex-workshop.latex.tools": [
-        {
-            "name": "latexmk",
-            "command": "latexmk",
-            "args": [
-                "-lualatex",
-                "-shell-escape",
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-outdir=%OUTDIR%",
-                "%DOC%"
-            ]
-        }
-    ],
+    "window.titleBarStyle": "custom",
+
     "printcode.disableTelemetry": true,
     "printcode.lineNumbers": "off"
 }
