@@ -1,6 +1,7 @@
 #!/bin/sh
-
-ln -s ~/shared_dotfiles/tmux.conf ~/.tmux.conf
-
-# todo macOS
-ln -s ~/shared_dotfiles/vscode_settings.json ~/.config/Code/User/settings.json
+ln -sf ~/shared_dotfiles/tmux.conf ~/.tmux.conf
+ln -sf ~/shared_dotfiles/config.fish ~/.config/fish/config.fish
+ln -sfT /home/ivan/shared_dotfiles/fish_functions ~/.config/fish/functions
+if [ "$(uname)" = Linux ]; then
+    ln -sf ~/shared_dotfiles/vscode_settings.json ~/.config/Code/User/settings.json
+fi

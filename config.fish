@@ -14,7 +14,14 @@ alias gbr='git branch'
 alias gsh='git stash'
 alias gcm='git commit'
 
-set local_fish_config ~/.config/fish/local_config.fish
-if test -f $local_fish_config
-    source $local_fish_config
+if test (uname) = Linux
+    alias open='gio open'
+    alias trash='gio trash'
+    alias clip-cp='xclip -selection clipboard'
+    alias cp-path='echo -n (pwd) | clip-cp'
+
+    # Overwrite local_dir with remote_dir:
+    # my-rsync remote_host_name:remote_dir/ local_dir
+    # Slash is important! It means "Copy not the dir itself, but its children".
+    alias my-rsync='rsync --archive --verbose --delete --progress'
 end
