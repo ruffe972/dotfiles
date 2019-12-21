@@ -1,4 +1,3 @@
-#!
 # Change working dir in fish to last dir in lf on exit (adapted from ranger).
 #
 # You may put this file to a directory in $fish_function_path variable:
@@ -13,6 +12,10 @@
 # You need to put this in a function called fish_user_key_bindings.
 
 function lf
+    if test -n "$LF_LEVEL"
+        exit
+        return
+    end
     set tmp (mktemp)
     env lf -last-dir-path=$tmp $argv
     if test -f "$tmp"
