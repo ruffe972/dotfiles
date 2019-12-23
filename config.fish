@@ -14,7 +14,6 @@ alias gbr='git branch'
 alias gsh='git stash'
 alias gcm='git commit'
 
-set PATH $HOME/.cargo/bin $PATH
 set -gx VISUAL "code"
 set -gx EDITOR $VISUAL
 
