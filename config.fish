@@ -14,6 +14,10 @@ alias gbr='git branch'
 alias gsh='git stash'
 alias gcm='git commit'
 
+set PATH $HOME/.cargo/bin $PATH
+set -gx VISUAL "code"
+set -gx EDITOR $VISUAL
+
 if test (uname) = Linux
     alias open='xdg-open'
     alias trash='gio trash'
