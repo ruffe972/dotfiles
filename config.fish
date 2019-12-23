@@ -15,7 +15,7 @@ alias gsh='git stash'
 alias gcm='git commit'
 
 if test (uname) = Linux
-    alias open='gio open'
+    alias open='xdg-open'
     alias trash='gio trash'
     alias clip-cp='xclip -selection clipboard'
     alias cp-path='echo -n (pwd) | clip-cp'
