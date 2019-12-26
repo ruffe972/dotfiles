@@ -35,7 +35,6 @@ if test (hostname) = mur-pc-00705
     set -gx ANDROID_NDK $ANDROID_HOME/ndk-bundle
     set -gx ANDROID_NDK_ROOT $ANDROID_NDK
     set -gx NDK_ROOT $ANDROID_NDK
-    set -gx VISUAL nvim
     set -gx PATH $PATH $ANDROID_NDK $ANDROID_HOME/tools $ANDROID_HOME/platform-tools /opt/Imagination/PowerVR_Graphics/PowerVR_Tools/PVRTexTool/CLI/Linux_x86_64/
 
     function my-cwebp
