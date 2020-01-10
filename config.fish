@@ -12,6 +12,7 @@ alias gch='git checkout'
 alias gst='git status'
 alias gsh='git stash'
 alias gcm='git commit'
+alias gbr='git branch'
 alias gdf='git diff'
 alias gdfs='git diff --staged'
 
