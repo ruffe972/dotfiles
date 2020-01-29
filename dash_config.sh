@@ -4,8 +4,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export VISUAL=micro
 export EDITOR="$VISUAL"
 
-if [ $(hostname) = "mur-pc-00705" ]
-then
+case "$(hostname)" in
+mur-pc-00705)
     # android
     export ANDROID_HOME=/usr/local/bin/android
     export ANDROID_SDK="$ANDROID_HOME"
@@ -14,4 +14,9 @@ then
     export NDK_ROOT="$ANDROID_NDK"
 
     export PATH="$PATH:$ANDROID_NDK:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:/opt/ImaginationPowerVR_Graphics/PowerVR_Tools/PVRTexTool/CLI/Linux_x86_64/"
-fi
+    ;;
+ivan-laptop)
+    export GEM_HOME="$HOME/.ruby/"
+    export PATH="$PATH:$HOME/.ruby/bin"
+    ;;
+esac
