@@ -1,12 +1,13 @@
 #!/bin/sh
+# Is executed for every dash instance
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export VISUAL=micro
 export EDITOR="$VISUAL"
 
-if [ $(hostname) = "mur-pc-00705" ]
+if [ "$(hostname)" = "mur-pc-00705" ]
 then
-    # android
+    # Android
     export ANDROID_HOME=/usr/local/bin/android
     export ANDROID_SDK="$ANDROID_HOME"
     export ANDROID_NDK="$ANDROID_HOME/ndk-bundle"
