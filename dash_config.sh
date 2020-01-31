@@ -2,7 +2,7 @@
 # Is executed for every dash instance
 
 export PATH="$HOME/.cargo/bin:$PATH"
-export VISUAL=micro
+export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 if [ "$(hostname)" = "mur-pc-00705" ]
