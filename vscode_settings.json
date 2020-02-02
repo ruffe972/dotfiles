@@ -2,12 +2,10 @@
     "editor.hover.enabled": false,
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
-    "git.enabled": false,
+    "printcode.disableTelemetry": true,
+    "printcode.lineNumbers": "off",
     "python.pythonPath": "/usr/bin/python3",
     "telemetry.enableTelemetry": false,
     "update.mode": "none",
-    "window.titleBarStyle": "custom",
-
-    "printcode.disableTelemetry": true,
-    "printcode.lineNumbers": "off"
+    "window.titleBarStyle": "custom"
 }
