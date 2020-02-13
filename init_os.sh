@@ -5,14 +5,14 @@ ln -sf ~/shared_dotfiles/config.fish ~/.config/fish/config.fish
 mkdir -p ~/.config/nvim
 ln -sf ~/shared_dotfiles/init.vim ~/.config/nvim/init.vim
 
-ln -sfT ~/shared_dotfiles/fish_functions ~/.config/fish/functions
-
 case "$(uname)" in
 Linux)
+    ln -sfT ~/shared_dotfiles/fish_functions ~/.config/fish/functions
     ln -sf ~/shared_dotfiles/vscode_settings.json ~/.config/Code/User/settings.json
     ;;
 Darwin)
-    echo "todo"
+    echo "Symlink fish_functions manually if needed."
+    ln -sf ~/shared_dotfiles/vscode_settings.json ~/"Library/Application Support/Code/User/settings.json"
     ;;
 esac
 
