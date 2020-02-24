@@ -1,5 +1,4 @@
-#!/bin/sh
-# Is executed for every dash instance
+# Source this in ~/.bashrc
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export VISUAL=nvim

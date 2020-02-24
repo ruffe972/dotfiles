@@ -17,7 +17,7 @@ Darwin)
 esac
 
 case "$(hostname)" in
-ivan-laptop | mur-pc-00705)
+ivan-home-linux | mur-pc-00705)
     # Unmap Ctrl+Shift+Alt+Up/Down
     gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Super><Shift>Page_Down']"
     gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Super>Page_Down']"

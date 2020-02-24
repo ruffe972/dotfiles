@@ -27,7 +27,7 @@ if test (uname) = Linux
     alias cp-path='echo -n (pwd) | clip-cp'
 end
 
-if test (hostname) = ivan-laptop
+if test (hostname) = ivan-home-linux
     # Overwrite local_dir with remote_dir:
     # my-rsync remote_host_name:remote_dir/ local_dir
     # Slash is important! It means "Copy not the dir itself, but its children".
