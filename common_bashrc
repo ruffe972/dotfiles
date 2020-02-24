@@ -4,8 +4,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
-if [ "$(hostname)" = "mur-pc-00705" ]
-then
+case "$(hostname)" in
+mur-pc-00705)
     # Android
     export ANDROID_HOME=/usr/local/bin/android
     export ANDROID_SDK="$ANDROID_HOME"
@@ -14,4 +14,8 @@ then
     export NDK_ROOT="$ANDROID_NDK"
 
     export PATH="$PATH:$ANDROID_NDK:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:/opt/ImaginationPowerVR_Graphics/PowerVR_Tools/PVRTexTool/CLI/Linux_x86_64/"
-fi
+    ;;
+ivan-home-linux)
+    export PATH="$PATH:$HOME/program_files/fd"
+    ;;
+esac
