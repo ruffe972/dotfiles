@@ -1,3 +1,4 @@
+#!/bin/sh
 # Source this in ~/.bashrc
 
 export PATH="$HOME/.cargo/bin:$PATH"

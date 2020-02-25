@@ -20,6 +20,7 @@ function my-cwebp
     cwebp -m 6 -q 94 $argv[1] -o $argv[1]
 end
 
+# todo
 if test (uname) = Linux
     alias open='xdg-open'
     alias trash='gio trash'
@@ -27,9 +28,7 @@ if test (uname) = Linux
     alias cp-path='echo -n (pwd) | clip-cp'
 end
 
-if test (hostname) = ivan-home-linux
-    # Overwrite local_dir with remote_dir:
-    # my-rsync remote_host_name:remote_dir/ local_dir
-    # Slash is important! It means "Copy not the dir itself, but its children".
-    alias my-rsync='rsync --archive --verbose --delete --progress'
-end
+# Overwrite local_dir with remote_dir:
+# my-rsync remote_host_name:remote_dir/ local_dir
+# Slash is important! It means "Copy not the dir itself, but its children".
+alias my-rsync='rsync --archive --verbose --delete --progress'
