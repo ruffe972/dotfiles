@@ -1,3 +1,7 @@
+function my-cwebp
+    cwebp -m 6 -q 94 $argv[1] -o $argv[1]
+end
+
 function rg
     if test -n "$RANGER_LEVEL"
         exit
@@ -8,4 +12,8 @@ function rg
     cd (cat $dir) $argv
     rm $dir
     commandline -f repaint
+end
+
+function _check-command
+    return (command -v $argv[1] > /dev/null)
 end
