@@ -14,6 +14,6 @@ function rg
     commandline -f repaint
 end
 
-function _check-command
+function _check_command
     return (command -v $argv[1] > /dev/null)
 end

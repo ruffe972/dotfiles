@@ -1,7 +1,6 @@
 #!/bin/sh
 
-# Leading underscore that means sth like 'this function is private'
-_create-links()
+_create_links()
 {
     ln -sf "$DOTFILES/config.fish" ~/.config/fish/config.fish
 
@@ -27,6 +26,8 @@ then
     gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Super>Page_Down']"
     gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Super><Shift>Page_Up']"
     gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['<Super>Page_Up']"
+
+    gsettings set org.gnome.desktop.peripherals.keyboard delay 250
 fi
 
-_create-links
+_create_links
