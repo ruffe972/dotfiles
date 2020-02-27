@@ -1,2 +1,3 @@
 home: remove ~/program_files/fd, cargo install fd-find
 symlink fish_functions on macOS
+DOTFILES is not set on fresh machine
