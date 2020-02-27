@@ -1,0 +1,2 @@
+home: remove ~/program_files/fd, cargo install fd-find
+symlink fish_functions on macOS

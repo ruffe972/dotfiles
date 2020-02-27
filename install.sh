@@ -13,7 +13,6 @@ _create_links()
         ln -sf "$DOTFILES/vscode_settings.json" ~/.config/Code/User/settings.json
         ;;
     Darwin)
-        echo "todo: symlink fish_functions."
         ln -sf "$DOTFILES/vscode_settings.json" ~/"Library/Application Support/Code/User/settings.json"
         ;;
     esac
