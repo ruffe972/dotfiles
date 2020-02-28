@@ -14,11 +14,12 @@ alias gdfs='git diff --staged'
 
 # Copy/paste
 if _check_command xclip
-    alias clip-cp='xclip -selection clipboard'
+    alias x-copy='xclip -selection clipboard'
+    alias cp-path='echo -n (pwd) | x-copy'
 end
 if _check_command wl-copy
+    alias cp-path='echo -n (pwd) | wl-copy'
 end
-alias cp-path='echo -n (pwd) | clip-cp'
 
 if _check_command xdg-open
     alias open='xdg-open'

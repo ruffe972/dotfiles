@@ -1,3 +1,2 @@
 symlink fish_functions on macOS
 create two txts for dnf from fresh install: dnf list --installed & dnf list manually installed. instead of existing txt
-wl-copy
