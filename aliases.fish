@@ -17,7 +17,6 @@ if _check_command xclip
     alias clip-cp='xclip -selection clipboard'
 end
 if _check_command wl-copy
-    echo "todo" # todo
 end
 alias cp-path='echo -n (pwd) | clip-cp'
 

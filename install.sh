@@ -2,18 +2,19 @@
 
 _create_links()
 {
-    ln -sf "$DOTFILES/config.fish" ~/.config/fish/config.fish
+    dotfiles=~/dotfiles
+    ln -sf "$dotfiles/config.fish" ~/.config/fish/config.fish
 
     mkdir -p ~/.config/nvim
-    ln -sf "$DOTFILES/init.vim" ~/.config/nvim/init.vim
+    ln -sf "$dotfiles/init.vim" ~/.config/nvim/init.vim
 
     case "$(uname)" in
     Linux)
-        ln -sfT "$DOTFILES/fish_functions" ~/.config/fish/functions
-        ln -sf "$DOTFILES/vscode_settings.json" ~/.config/Code/User/settings.json
+        ln -sfT "$dotfiles/fish_functions" ~/.config/fish/functions
+        ln -sf "$dotfiles/vscode_settings.json" ~/.config/Code/User/settings.json
         ;;
     Darwin)
-        ln -sf "$DOTFILES/vscode_settings.json" ~/"Library/Application Support/Code/User/settings.json"
+        ln -sf "$dotfiles/vscode_settings.json" ~/"Library/Application Support/Code/User/settings.json"
         ;;
     esac
 }
