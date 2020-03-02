@@ -14,6 +14,7 @@ _create_links()
         ln -sf "$dotfiles/vscode_settings.json" ~/.config/Code/User/settings.json
         ;;
     Darwin)
+        echo "todo: fish_functions"
         ln -sf "$dotfiles/vscode_settings.json" ~/"Library/Application Support/Code/User/settings.json"
         ;;
     esac
