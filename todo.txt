@@ -1,2 +1,0 @@
-create two txts for dnf from fresh install: dnf list --installed & dnf list manually installed. instead of existing txt
-change dnf_not_...txt
