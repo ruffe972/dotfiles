@@ -27,3 +27,7 @@ end
 # my-rsync remote_host_name:remote_dir/ local_dir
 # Slash is important! It means "Copy not the dir itself, but its children".
 alias my-rsync='rsync --archive --verbose --delete --progress'
+
+if test (hostname) = mur-pc-00705
+    alias cp-head='echo -n (git rev-parse --abbrev-ref HEAD)/(git rev-parse HEAD) | x-copy'
+end
