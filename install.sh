@@ -12,9 +12,10 @@ _create_links()
     Linux)
         ln -sfT "$dotfiles/fish_functions" ~/.config/fish/functions
         ln -sf "$dotfiles/vscode_settings.json" ~/.config/Code/User/settings.json
+        ln -sf "$dotfiles/mpv_input.conf" ~/.config/mpv/input.conf
         ;;
     Darwin)
-        echo "todo: fish_functions"
+        echo "Symlink fish_functions manually"
         ln -sf "$dotfiles/vscode_settings.json" ~/"Library/Application Support/Code/User/settings.json"
         ;;
     esac
