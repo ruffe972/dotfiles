@@ -13,6 +13,10 @@ _create_links()
         ln -sfT "$dotfiles/fish_functions" ~/.config/fish/functions
         ln -sf "$dotfiles/vscode_settings.json" ~/.config/Code/User/settings.json
         ln -sf "$dotfiles/mpv_input.conf" ~/.config/mpv/input.conf
+
+        mkdir -p ~/.config/environment.d
+        ln -sf "$dotfiles/wayland_environment.conf" ~/.config/environment.d/environment.conf
+
         ;;
     Darwin)
         echo "Symlink fish_functions manually"
