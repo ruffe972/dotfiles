@@ -14,7 +14,6 @@ _create_links()
         ln -sf "$dotfiles/vscode_settings.json" ~/.config/Code/User/settings.json
         ln -sf "$dotfiles/mpv_input.conf" ~/.config/mpv/input.conf
         #ln -sf "$dotfiles/retroarch.cfg" ~/.var/app/org.libretro.RetroArch/config/retroarch/retroarch.cfg
-        ln -sf "$dotfiles/retroarch.cfg" ~/.config/retroarch/retroarch.cfg
 
         mkdir -p ~/.config/environment.d
         ln -sf "$dotfiles/wayland_environment.conf" ~/.config/environment.d/environment.conf
