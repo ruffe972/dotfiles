@@ -13,5 +13,6 @@
     "vim.autoSwitchInputMethod.switchIMCmd": "/home/iershov/shared_dotfiles/gnome_set_input_method.sh {im}",
     "vim.autoSwitchInputMethod.enable": true,
     "vim.autoSwitchInputMethod.defaultIM": "0",
-    "gitlens.statusBar.enabled": false
+    "gitlens.statusBar.enabled": false,
+    "extensions.ignoreRecommendations": true
 }
