@@ -29,5 +29,6 @@ end
 alias my-rsync='rsync --archive --verbose --delete --progress'
 
 if test (hostname) = mur-pc-00705
-    alias cp-head='echo -n (git rev-parse --abbrev-ref HEAD)/(git rev-parse HEAD) | x-copy'
+    alias cp-git-head='git log | head; echo -n (git rev-parse --abbrev-ref HEAD)/(git rev-parse HEAD) | x-copy'
+    alias anyconnect-gui='/opt/cisco/anyconnect/bin/vpnui'
 end
