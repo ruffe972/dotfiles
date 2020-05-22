@@ -14,7 +14,6 @@ val COMMON_VIDEOGAMES = listOf(
     "Worms W.M.D"
 )
 val MY_VIDEOGAMES = listOf(
-    // "Witcher 2"
     "Mario Kart DS"
 )
 val TABLETOP_GAMES = listOf(
