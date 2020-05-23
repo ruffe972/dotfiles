@@ -15,5 +15,5 @@
     "vim.autoSwitchInputMethod.defaultIM": "0",
     "gitlens.statusBar.enabled": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "Default Light+"
+    "workbench.colorTheme": "Tomorrow Night Blue"
 }
