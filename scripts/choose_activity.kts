@@ -1,7 +1,5 @@
 val GAMING = "gaming"
 val ACTIVITIES = List(3) { GAMING } + List(1) { "movies" }
-
-// Game lists
 val COMMON_VIDEOGAMES = listOf(
     "Mario 3",
     "Keep Talking and Nobody Explodes",
@@ -10,14 +8,18 @@ val COMMON_VIDEOGAMES = listOf(
     "New Luigi",
     "Super Mario Party",
     "Minecraft",
-    "Mario Kart 8",
-    "Worms W.M.D",
     "Pokken Tournament DX",
     "Just Dance"
 )
+
+// Also contains games in progress with both single and multiplayer.
 val MY_VIDEOGAMES = listOf(
-    "Mario Kart DS"
+    "Mario Kart DS",
+    //"Witcher 2",
+    "Mario Kart 8",
+    "Worms W.M.D"
 )
+
 val TABLETOP_GAMES = listOf(
     "MtG",
     "Carcassonne",
