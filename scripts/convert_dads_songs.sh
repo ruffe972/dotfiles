@@ -1,14 +1,12 @@
 #!/bin/bash
+# Put script near аккорды dir, run it from parent dir.
 
-echo todo
+echo 'test me + shellcheck'
 exit
 
 set -e  # exit immediately if a command exits with a non-zero status
-PDF_DIR=аккорды_pdf
-
-cp -r "$1" .
-mv "$(basename "$1")" $PDF_DIR
-cd $PDF_DIR
+cp -r аккорды аккорды_pdf
+cd аккорды_pdf
 find . -iname '*.odt' \
     -execdir libreoffice --convert-to pdf {} \; \
     -delete
