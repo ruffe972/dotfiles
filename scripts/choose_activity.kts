@@ -11,7 +11,9 @@ val COMMON_VIDEOGAMES = listOf(
     "Super Mario Party",
     "Minecraft",
     "Mario Kart 8",
-    "Worms W.M.D"
+    "Worms W.M.D",
+    "Pokken Tournament DX",
+    "Just Dance"
 )
 val MY_VIDEOGAMES = listOf(
     "Mario Kart DS"
