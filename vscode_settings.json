@@ -15,5 +15,8 @@
     "vim.autoSwitchInputMethod.defaultIM": "0",
     "gitlens.statusBar.enabled": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "Tomorrow Night Blue"
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "files.associations": {
+        "*.json": "jsonc"
+    }
 }
