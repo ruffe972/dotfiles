@@ -3,26 +3,22 @@
 _create_links()
 {
     dotfiles=~/dotfiles
-    ln -sf "$dotfiles/config.fish" ~/.config/fish/config.fish
 
     mkdir -p ~/.config/nvim
     ln -sf "$dotfiles/init.vim" ~/.config/nvim/init.vim
+    
+    mkdir -p ~/.config/environment.d
+    ln -sf "$dotfiles/wayland_environment.conf" ~/.config/environment.d/environment.conf
 
-    case "$(uname)" in
-    Linux)
-        ln -sfT "$dotfiles/fish_functions" ~/.config/fish/functions
-        ln -sf "$dotfiles/vscode_settings.json" ~/.config/Code/User/settings.json
-        ln -sf "$dotfiles/mpv_input.conf" ~/.config/mpv/input.conf
+    ln -sf "$dotfiles/config.fish" ~/.config/fish/config.fish
+    ln -sfT "$dotfiles/fish_functions" ~/.config/fish/functions
+    ln -sf "$dotfiles/vscode_settings.json" ~/.config/Code/User/settings.json
+    ln -sf "$dotfiles/mpv_input.conf" ~/.config/mpv/input.conf
 
-        mkdir -p ~/.config/environment.d
-        ln -sf "$dotfiles/wayland_environment.conf" ~/.config/environment.d/environment.conf
-
-        ;;
-    Darwin)
-        echo "Symlink fish_functions manually"
-        ln -sf "$dotfiles/vscode_settings.json" ~/"Library/Application Support/Code/User/settings.json"
-        ;;
-    esac
+    if test "$(hostname)" = home-linux-desktop
+    then
+        ln -sf "$dotfiles/home_linux_desktop_user_dirs" ~/.config/user-dirs.dirs
+    fi
 }
 
 if test -x "$(command -v gsettings)"
