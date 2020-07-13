@@ -1,8 +1,3 @@
-# Work
-function my-cwebp
-    cwebp -m 6 -q 94 $argv[1] -o $argv[1]
-end
-
 function rg
     if test -n "$RANGER_LEVEL"
         exit

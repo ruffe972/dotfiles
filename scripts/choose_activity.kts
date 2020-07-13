@@ -1,3 +1,5 @@
+// TODO revert all the changes and simplify
+
 sealed class ActivityType {
     object Movies : ActivityType() {
         override fun toString() = Movies::class.simpleName!!

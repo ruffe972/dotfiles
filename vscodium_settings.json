@@ -9,26 +9,9 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
     "gitlens.statusBar.enabled": false,
-    "vim.autoSwitchInputMethod.obtainIMCmd": "/home/ivan/dotfiles/scripts/gnome_get_input_method.sh",
-    "vim.autoSwitchInputMethod.switchIMCmd": "/home/ivan/dotfiles/scripts/gnome_set_input_method.sh {im}",
-    "vim.autoSwitchInputMethod.enable": true,
-    "vim.autoSwitchInputMethod.defaultIM": "0",
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["<c-k>"],
-            "after": ["<c-u>"]
-        },
-        {
-            "before": ["<c-j>"],
-            "after": ["<c-d>"]
-        }
-    ],
     "extensions.ignoreRecommendations": true,
     "workbench.colorTheme": "Tomorrow Night Blue",
     "files.associations": {
         "*.json": "jsonc"
-    },
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "window.zoomLevel": 0
+    }
 }
