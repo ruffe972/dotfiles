@@ -1,4 +1,3 @@
-# git. todo: move to git config file
 alias gch='git checkout'
 alias gst='git status'
 alias gsh='git stash'
