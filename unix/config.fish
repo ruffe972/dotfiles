@@ -3,7 +3,7 @@ if not status --is-interactive
 end
 
 # Modifying existing PATH var, so -x is not needed
-# set PATH $PATH /some/path
+set PATH $PATH /home/ivan/program_files/kotlinc/bin
 
 # Functions
 

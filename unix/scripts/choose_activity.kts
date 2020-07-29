@@ -19,3 +19,4 @@ val gamesVikaWants = listOf(
 )
 
 val game = (gamesBothWant + gamesIWant).random()
+println(if ((0..3).random() == 0) "movies" else game)
