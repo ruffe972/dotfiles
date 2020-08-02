@@ -3,7 +3,11 @@ if not status --is-interactive
 end
 
 # Modifying existing PATH var, so -x is not needed
-set PATH $PATH /home/ivan/program_files/kotlinc/bin
+set PATH $PATH ~/program_files/kotlinc/bin ~/.cargo/bin
+
+# "codium --wait" doesn't work with sudoedit, for example
+set -x VISUAL micro
+set -x EDITOR $VISUAL
 
 # Functions
 
@@ -13,21 +17,12 @@ end
 
 # Aliases
 
-alias gch='git checkout'
-alias gst='git status'
-alias gsh='git stash'
-alias gcm='git commit'
-alias gbr='git branch'
-alias gdf='git diff'
-alias gdfs='git diff --staged'
-
 alias x-copy='xclip -selection clipboard'
+
 alias x-cp-path='echo -n (pwd) | x-copy'
 alias wl-cp-path='echo -n (pwd) | wl-copy'
 alias win-cp-path='echo -n (pwd) | clip.exe'
-if _check_command xdg-open
-    alias open='xdg-open'
-end
+
 if _check_command gio
     alias trash='gio trash'
 end

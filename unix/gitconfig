@@ -1,0 +1,11 @@
+[user]
+	name = Ivan Ershov
+	email = ivanershov51@gmail.com
+[alias]
+	ch = checkout
+	st = status
+	sh = stash
+	cm = commit
+	br = branch
+	df = diff
+	dfs = diff --staged
