@@ -9,3 +9,6 @@
 	br = branch
 	df = diff
 	dfs = diff --staged
+[core]
+	eol = lf
+	autocrlf = false

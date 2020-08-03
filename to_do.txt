@@ -1,0 +1,4 @@
+fix lf crlf
+fix permissions
+allow empty commit msgs
+fix guitar script

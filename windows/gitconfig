@@ -1,0 +1,8 @@
+[user]
+	email = ivanershov51@gmail.com
+	name = Ivan Ershov
+[credential]
+	helper = manager
+[core]
+	eol = lf
+	autocrlf = false

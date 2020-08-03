@@ -1,5 +1,6 @@
 val gamesBothWant = listOf(
     "Overcooked",
+    "Overcooked 2",
     "New Mario",
     "Pokken Tournament DX"
 )
@@ -18,5 +19,5 @@ val gamesVikaWants = listOf(
     "Dominion"
 )
 
-val game = (gamesBothWant + gamesIWant).random()
+val game = (gamesBothWant + gamesIWant + gamesVikaWants).random()
 println(if ((0..3).random() == 0) "movies" else game)
