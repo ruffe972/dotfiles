@@ -2,7 +2,7 @@
 	name = Ivan Ershov
 	email = ivanershov51@gmail.com
 [alias]
-	co = checkout
+	ch = checkout
 	st = status
 	sh = stash
 	cm = commit
@@ -14,3 +14,4 @@
 	eol = lf
 	autocrlf = false
 	quotepath = off
+	pager = delta

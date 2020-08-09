@@ -1,3 +1,5 @@
+import kotlin.system.exitProcess
+
 val gamesBothWant = listOf(
     "Overcooked",
     "Overcooked 2",
@@ -19,5 +21,12 @@ val gamesVikaWants = listOf(
     "Dominion"
 )
 
-val game = (gamesBothWant + gamesIWant + gamesVikaWants).random()
+var games = gamesBothWant
+if (args.size == 1 && args[0] == "-all") {
+    games += gamesIWant + gamesVikaWants
+} else if (args.size != 0) {
+    println("Wrong args.")
+    exitProcess(1)
+}
+val game = games.random()
 println(if ((0..3).random() == 0) "movies" else game)
