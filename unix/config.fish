@@ -19,6 +19,10 @@ end
 
 alias x-copy='xclip -selection clipboard'
 
+# Git
+alias g=git
+alias gcem='git commit --allow-empty-message -m ""'
+
 # Copy path
 alias x-cp-path='echo -n (pwd) | x-copy'
 alias wl-cp-path='echo -n (pwd) | wl-copy'
@@ -26,7 +30,9 @@ alias win-cp-path='echo -n (pwd) | clip.exe'
 
 # exa
 alias lf=exa
-alias lfl='exa -l'
+alias l='exa --oneline'
+alias ll='exa -l'
+alias la='exa -al'
 
 # Gnome
 if _check_command gio

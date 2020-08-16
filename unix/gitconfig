@@ -1,15 +1,6 @@
 [user]
 	name = Ivan Ershov
 	email = ivanershov51@gmail.com
-[alias]
-	ch = checkout
-	st = status
-	sh = stash
-	cm = commit
-	cme = commit --allow-empty-message -m ''
-	br = branch
-	df = diff
-	dfs = diff --staged
 [core]
 	eol = lf
 	autocrlf = false

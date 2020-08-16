@@ -8,7 +8,8 @@
     "files.associations": {
         "*.json": "jsonc"
     },
-    "git.enabled": false,
     "editor.fontFamily": "FiraCode NF",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "diffEditor.renderSideBySide": false
 }
