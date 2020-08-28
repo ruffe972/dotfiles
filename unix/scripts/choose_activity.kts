@@ -4,7 +4,10 @@ val gamesBothWant = listOf(
     "Overcooked",
     "Overcooked 2",
     "New Mario",
-    "Pokken Tournament DX"
+    "Pokken Tournament DX",
+    "Minecraft",
+    "MtG",
+    "Super Mario Party"
 )
 
 val gamesIWant = listOf(
@@ -14,8 +17,6 @@ val gamesIWant = listOf(
 )
 
 val gamesVikaWants = listOf(
-    "Super Mario Party",
-    "MtG",
     "Carcassonne medieval",
     "Carcassonne prehistoric",
     "Dominion"

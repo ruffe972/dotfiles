@@ -1,8 +1,8 @@
 [user]
-	name = Ivan Ershov
-	email = ivanershov51@gmail.com
+    name = Ivan Ershov
+    email = ivanershov51@gmail.com
 [core]
-	eol = lf
-	autocrlf = false
-	quotepath = off
-	pager = delta
+    eol = lf
+    autocrlf = false
+    quotepath = off
+    pager = delta

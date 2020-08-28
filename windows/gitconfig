@@ -1,9 +1,9 @@
 [user]
-	email = ivanershov51@gmail.com
-	name = Ivan Ershov
+    email = ivanershov51@gmail.com
+    name = Ivan Ershov
 [credential]
-	helper = manager
+    helper = manager
 [core]
-	eol = lf
-	autocrlf = false
-	editor = \"C:\\Users\\Ivan\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+    eol = lf
+    autocrlf = false
+    editor = notepad
