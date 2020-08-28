@@ -1,6 +1,7 @@
 #!/bin/bash
 # Put script near аккорды dir, run it from parent dir.
 
+# TODO
 echo 'test me + shellcheck'
 exit
 
