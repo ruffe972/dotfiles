@@ -5,7 +5,6 @@ end
 # Modifying existing PATH var, so -x is not needed
 set PATH $PATH ~/program_files/kotlinc/bin ~/.cargo/bin
 
-# "codium --wait" doesn't work with sudoedit, for example
 set -x VISUAL micro
 set -x EDITOR $VISUAL
 
@@ -30,7 +29,7 @@ alias win-cp-path='echo -n (pwd) | clip.exe'
 
 # exa
 alias lf=exa
-alias l='exa --oneline'
+alias l='exa -l'
 alias ll='exa -l'
 alias la='exa -al'
 
@@ -38,5 +37,3 @@ alias la='exa -al'
 if _check_command gio
     alias trash='gio trash'
 end
-
-# starship init fish | source
