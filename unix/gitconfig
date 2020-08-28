@@ -1,8 +1,4 @@
-[user]
-    name = Ivan Ershov
-    email = ivanershov51@gmail.com
+[include]
+    path = ~/dotfiles/gitconfig
 [core]
-    eol = lf
-    autocrlf = false
-    quotepath = off
     pager = delta

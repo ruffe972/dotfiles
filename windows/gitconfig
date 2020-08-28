@@ -1,9 +1,6 @@
-[user]
-    email = ivanershov51@gmail.com
-    name = Ivan Ershov
+[include]
+    path = ~/f/dotfiles/gitconfig
 [credential]
     helper = manager
 [core]
-    eol = lf
-    autocrlf = false
     editor = notepad
