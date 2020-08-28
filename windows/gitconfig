@@ -1,6 +1,4 @@
 [include]
     path = ~/f/dotfiles/gitconfig
-[credential]
-    helper = manager
 [core]
     editor = notepad
