@@ -1,13 +1,13 @@
 import kotlin.system.exitProcess
 
 val gamesBothWant = listOf(
-    "Overcooked",
     "Overcooked 2",
     "New Mario",
-    "Pokken Tournament DX",
     "Minecraft",
     "MtG",
-    "Super Mario Party"
+    "Super Mario Party",
+    "Monopoly",
+    "Worms W.M.D."
 )
 
 val gamesIWant = listOf(
@@ -19,7 +19,9 @@ val gamesIWant = listOf(
 val gamesVikaWants = listOf(
     "Carcassonne medieval",
     "Carcassonne prehistoric",
-    "Dominion"
+    "Pokken Tournament DX",
+    "Dominion",
+    "Overcooked"
 )
 
 var games = gamesBothWant
@@ -30,4 +32,4 @@ if (args.size == 1 && args[0] == "-all") {
     exitProcess(1)
 }
 val game = games.random()
-println(if ((0..3).random() == 0) "movies" else game)
+println(if ((0..3).random() == 0) "tv" else game)

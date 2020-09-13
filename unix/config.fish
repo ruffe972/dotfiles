@@ -9,10 +9,12 @@ set -x VISUAL micro
 set -x EDITOR $VISUAL
 
 # Aliases
+# TODO convert some aliases to abbrs
 
 alias g=git
 alias x-copy='xclip -selection clipboard'
 alias gcem='git commit --allow-empty-message -m ""'  # TODO remove
+alias fd=fdfind
 
 # Copy path
 alias _pwd-no-new-line='echo -n (pwd)'
@@ -21,7 +23,7 @@ alias wl-cp-path='_pwd-no-new-line | wl-copy'
 alias win-cp-path='_pwd-no-new-line | clip.exe'
 
 # exa
-alias lf=exa
+alias ls=exa
 alias ll='exa -l'
-alias l=ll
 alias la='exa -al'
+alias l='exa -1'

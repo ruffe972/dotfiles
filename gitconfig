@@ -1,3 +1,19 @@
 [user]
     email = ivanershov51@gmail.com
     name = Ivan Ershov
+[alias]
+    # TODO
+    # a = add
+    # b = branch
+    # c = commit
+    # c0 = commit --allow-empty-message --message ''
+    # co = checkout
+    # d = diff
+    # ds = diff --staged
+    # f = fetch
+    # l = pull
+    # lo = log
+    # p = push
+    # s = status
+    # sh = stash
+    # shl = stash list
