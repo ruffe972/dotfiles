@@ -3,7 +3,7 @@
     "telemetry.enableTelemetry": false,
     "window.titleBarStyle": "custom",
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.colorTheme": "Solarized Dark",
     "files.associations": {
         "*.json": "jsonc"
     },
