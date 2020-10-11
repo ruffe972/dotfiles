@@ -1,3 +1,6 @@
+# TODO unite wsl and windows dotfiles dir
+# todo maybe I should exclude some files from dotfiles dir
+
 if not status --is-interactive
     exit 0
 end
@@ -5,7 +8,7 @@ end
 # Modifying existing PATH var, so -x is not needed
 set PATH $PATH ~/program_files/kotlinc/bin ~/.cargo/bin
 
-set -x VISUAL micro
+set -x VISUAL nvim
 set -x EDITOR $VISUAL
 
 # Aliases

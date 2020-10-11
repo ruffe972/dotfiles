@@ -7,11 +7,11 @@ val gamesBothWant = listOf(
     "MtG",
     "Super Mario Party",
     "Monopoly",
+    "Mario 3",
     "Worms W.M.D."
 )
 
 val gamesIWant = listOf(
-    "Mario 3",
     "Keep Talking and Nobody Explodes",
     "New Luigi"
 )
