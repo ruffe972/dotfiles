@@ -3,12 +3,14 @@
     "telemetry.enableTelemetry": false,
     "window.titleBarStyle": "custom",
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "Solarized Dark",
     "files.associations": {
         "*.json": "jsonc"
     },
     "editor.fontFamily": "FiraCode NF",
     "editor.fontLigatures": true,
     "files.autoSave": "afterDelay",
-    "diffEditor.renderSideBySide": false
+    "diffEditor.renderSideBySide": false,
+    "workbench.colorTheme": "Kimbie Dark",
+    "python.languageServer": "Pylance",
+    "python.linting.pylintEnabled": true
 }

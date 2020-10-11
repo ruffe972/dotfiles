@@ -3,7 +3,10 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; TODO make step bigger
+#NoTrayIcon
+
+; Volume
+; TODO make volume step bigger
 
 #F10::
 Send {Volume_Mute}
@@ -16,3 +19,9 @@ return
 #F12::
 Send {Volume_Up}
 return
+
+; Other
+
+; Shift + Caps toggles case
++CapsLock::CapsLock
+CapsLock::Esc
