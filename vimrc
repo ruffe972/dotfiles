@@ -6,9 +6,7 @@
 " Russian
 " Default imsearch value is good: it syncs search layout with insert mode layout
 
-" Only this keymap corresponds to modern йцукен keyboards
 set keymap=russian-jcukenwin
-
 set iminsert=0  " Set initial layout to English
 
 " Other
