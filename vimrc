@@ -1,3 +1,8 @@
+" TODO:
+" install vim-sensible
+" adapt for both gvim and wsl vim
+" cleanup
+
 " Russian
 " Default imsearch value is good: it syncs search layout with insert mode layout
 

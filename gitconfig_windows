@@ -1,4 +1,4 @@
 [include]
-    path = ~/f/dotfiles/gitconfig
+    path = ~/.gitconfig_common
 [core]
     editor = notepad
