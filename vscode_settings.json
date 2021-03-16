@@ -10,7 +10,6 @@
     "editor.fontLigatures": true,
     "files.autoSave": "afterDelay",
     "diffEditor.renderSideBySide": false,
-    "workbench.colorTheme": "Kimbie Dark",
     "python.languageServer": "Pylance",
-    "python.linting.pylintEnabled": true
+    "workbench.colorTheme": "Quiet Light"
 }
