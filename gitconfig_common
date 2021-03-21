@@ -1,5 +1,4 @@
 [user]
-    email = ivanershov51@gmail.com
     name = Ivan Ershov
 [alias]
     c0 = commit --allow-empty-message --no-edit

@@ -1,6 +1,7 @@
 # Run as admin
 
-Set-Variable dotfiles -Option Constant -Value $HOME\f\dotfiles
+Set-Variable dotfiles -Option Constant -Value ~\f\dotfiles
+Set-Variable dotfilesWin -Option Constant -Value $dotfiles\windows
 
 # Symlink 'target' 'link name'
 function Symlink {
@@ -9,8 +10,7 @@ function Symlink {
 
 # Git
 Symlink $dotfiles\gitconfig_common ~\.gitconfig_common
-Symlink $dotfiles\gitconfig_windows ~\.gitconfig
+Symlink $dotfilesWin\gitconfig ~\.gitconfig
 
-Symlink $dotfiles\vimrc ~\_vimrc
 Symlink $dotfiles\vscode_settings.json ~\AppData\Roaming\Code\User\settings.json
-Symlink $dotfiles\profile.ps1 C:\Users\Ivan\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+Symlink $dotfilesWin\profile.ps1 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1

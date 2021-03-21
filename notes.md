@@ -1,10 +1,5 @@
-* to do
-  * decide on lf, crlf and git
-    * maybe turn off and manage lf/crlf manually on a per-file basis
-    * or enable lf for everything
-  * make links
-  * link list of maintained config files
-* linking is handy when reinstalling the os
+* unix dir is unmantained for now
 * systems with my dotfiles
-  * ivan-home-windows-desktop
-  * raspberry (TODO hostname)
+  * NB-SPB-A105 (work)
+  * ivan-home-win
+  * todo remove dotfiles from raspberry

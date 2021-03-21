@@ -1,4 +1,0 @@
-[include]
-    path = ~/.gitconfig_common
-[core]
-    editor = notepad
