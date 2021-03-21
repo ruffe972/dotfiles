@@ -10,6 +10,5 @@
     "editor.fontLigatures": true,
     "files.autoSave": "afterDelay",
     "diffEditor.renderSideBySide": false,
-    "python.languageServer": "Pylance",
-    "workbench.colorTheme": "Quiet Light"
+    "python.languageServer": "Pylance"
 }
