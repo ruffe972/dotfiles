@@ -2,7 +2,7 @@ function cp-path {
     Set-Clipboard (Get-Location).Path
 }
 
-Set-Theme Paradox
+Import-Module posh-git
 
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadlineOption -BellStyle Visual  # Disable annoying beeps
