@@ -1,14 +1,11 @@
 {
     "editor.wordWrap": "on",
     "telemetry.enableTelemetry": false,
-    "window.titleBarStyle": "custom",
     "extensions.ignoreRecommendations": true,
     "files.associations": {
         "*.json": "jsonc"
     },
-    "editor.fontFamily": "FiraCode NF",
-    "editor.fontLigatures": true,
     "files.autoSave": "afterDelay",
     "diffEditor.renderSideBySide": false,
-    "python.languageServer": "Pylance"
+    "workbench.colorTheme": "Default Light+"
 }
