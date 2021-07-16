@@ -6,6 +6,5 @@
         "*.json": "jsonc"
     },
     "files.autoSave": "afterDelay",
-    "diffEditor.renderSideBySide": false,
-    "workbench.colorTheme": "Default Light+"
+    "diffEditor.renderSideBySide": false
 }

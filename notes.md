@@ -1,5 +1,5 @@
 * unix dir is unmantained for now
 * systems with my dotfiles
-  * NB-SPB-A105 (work)
-  * ivan-home-win
+  * mbp-iershov (work)
+  * ivan-home-win (todo remove?)
   * todo remove dotfiles from raspberry

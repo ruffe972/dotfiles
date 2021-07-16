@@ -1,3 +1,4 @@
+" todo install neovim and cleanup. do i need terminal editor on mac?
 " install vim-sensible
 " adapt for both gvim and wsl vim
 " cleanup
